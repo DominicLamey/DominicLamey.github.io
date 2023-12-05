@@ -1,132 +1,248 @@
 <!doctype html>
-<html>
-<head>
+<html lang="en">
+  <head>
     <title>Dominic Lamey's Portfolio Page</title>
     <link rel="icon" type="image/png" href="Images/favicon.png" />
     <link rel="stylesheet" href="css/custom.css">
     <script src="js/bootstrap.bundle.min.js"></script>
-</head>
-<body>
+    <link href="https://getbootstrap.com/docs/5.1/examples/carousel/carousel.css" rel="stylesheet">
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
 
-    <div class="card m-2" style="width: 20rem;">
-        <img src="Images/profilepic.png" class="card-img-top" alt="My profile picture">
-        <div class="card-body">
-          <h5 class="card-title">About Me</h5>
-          <p class="card-text">Bio/about section
-            I am a Junior at Oregon State University Cascades, and I am in pursuit of an outdoor products degree. Through my time at OSU, I have developed an array of skills ranging from operations and supply chain management, marketing, sales, and product design all with a focus in the outdoor products industry. Professionally, I have proven to be a reliable employee having experience across several professional workplace environments. I am looking to apply specific skills in order to provide value to a company developing cutting edge products in the outdoor industry.</p>
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+
+    
+  </head>
+  <body>
+
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Dominic Lamey</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        </ul>
+        <form class="d-flex">
+          
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Images/profilepic.png">
+       
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Dominic Lamey</h1>
+            <p>Looking to apply specific skills in order to provide value to a company developing cutting edge products in
+              the outdoor industry.</p>
+          
+          </div>
         </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Images/columbia.jpg">
+
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Outdoor products industry expert.</h1>
+            <p>Skills in product design, marketing, and operations and supply chain management.</p>
+            
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src=Images/deschutes.jpg>
+
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>Located in Bend, OR.</h1>
+            <p></p>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        
+        <p><img src = "images/osu.png" width = "200"></p>
+        <h2>Major in Outdoor Products</h2>
+        <p>Graduate of 2025</p>
+        
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <p><img src = "images/linkedin.png" width = "200"></p>
+        <h2>Linkedin</h2>
+        <p>Dominic Lamey</p>
+        <p><a class="btn btn-secondary" href="https://www.linkedin.com/in/dominic-lamey-baab85271/" target="_blank"> View Linkedin &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+
+
+        <img src = "images/handshake.jpg" width = "200"></p>
+        <h2>Handshake</h2>
+        <p>Dominic Lamey</p>
+        <p><a class="btn btn-secondary" href="https://app.joinhandshake.com/stu/users/30484596" target="_blank"> View Handshake &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      
+        <h2 class="featurette-heading"> Work Experience <span class="text-muted"></span></h2>
+        <p class="lead"></p>
+          <br>
+          <b>
+          U-haul of Clackamas Town Center (Customer Service Representative)</b>
+          <br>
+          Completed cleaning/maintenance of trucks/trailers, 
+          ensuring equipment was properly prepared for extensive 
+          use by customers. Responsible for customer service inside the 
+          store, regarding truck/trailer/storage unit rentals, 
+          hitch installation appointments, and purchases from the floor.
+          Customer service and multitasking skills developed greatly in 
+          this position.
+          <br>
+          <br> <b>
+          Sportsmans Warehouse (Sales Associate)</b>
+          <br>
+          
+          Served customers on the floor to the highest level of 
+          satisfaction by identifying customer wants/needs, 
+          offering alternatives when necessary, and continuously 
+          offering assistance. Negotiated successfully as a sales 
+          associate for specialty items. Responsible for moving product 
+          to the sales floor and creating engaging product displays.
+          <br>
+          <br>
+          <br><b>
+          The Hook Fly Shop (Shop Associate)</b>
+          <br>
+          Engaged with a wide range of customers from regular patrons,
+          to cross country vacationers. Assisted customers on a personal 
+          basis, equipping them with specific gear for their upcoming angling
+          adventure.
+      </div>
+      
+        
+
+      </div>
     </div>
 
+    <hr class="featurette-divider">
 
-<div>
-    <h2>Contact Me</h2>
-    <p>Email: <a href="mailto:lameyd@oregonstate.edu">lameyd@oregonstate.edu</a><p></p>
-</div>
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading"> Relevant Courses </h2>
+        <p class="lead"> <h2></h2>
+          <br>
+          <p>-Operations and Supply Chain Management (BA 357)</p>
+            <p>-Engineering Graphics and 3D Modeling (ENGR 248)</p>
+            <p>-Outdoor Products Process Connections (OP 301)</p>
+            <p>-Design Thinking and Process Innovation (DSGN 341)</p>
+            <p>-Principles of Marketing (BA 390)</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src = "images/cascades.png" width = "800"
+        svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></text></svg>
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading"> Personal Projects <span class="text-muted"></span></h2>
+        <p class="lead"><p>
+          <br>
+          The Drift Box Pitch Presentation:
+          <a href="https://docs.google.com/presentation/d/1JxQtNkB1vQdJIfPn_Y5N9vXk-zOpaeWRe9pfco7aykQ/edit#slide=id.p" target="_blank">The Drift Box Presentation</a>
+          </p>
+          <p>
+          CAD Fly Fishing Reel: 
+          <a href="https://docs.google.com/presentation/d/1zTkr29t988COasqgo7C1jrxVLuZrsizLVZuXdiKTtVg/edit#slide=id.p" target="_blank"> Solidworks Fly Reel Design Review </a>
+          </p>
+          <p>Github Repository: <a href="https://dominiclamey.github.io/" target="_blank"> dominiclamey.github.io </a></p>
+      </div>
+      <div class="col-md-5">
+        <img src = "images/TB1.PNG"
+        svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></text></svg>
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
 
 
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+  </footer>
+</main>
 
-<div>
-    <h2>Experience</h2>
-    <p>
-    U-haul of Clackamas Town Center (Customer Service Representative)
-    <br>
-    -Completed cleaning/maintenance of trucks/trailers, 
-    along with customer service inside the store, regarding 
-    truck/trailer/storage unit rentals, hitch installation appointments,
-    and purchases from the floor on a daily basis.
-    </p>
-    <p>
-    Sportsmans Warehouse (Sales Associate)
-    <br>
-    -Served customers on the floor to the highest level of satisfaction,
-    by identifying customer wants/needs, offering alternatives
-    when necessary, and continually offering a helping hand. 
-    </p>
-    The Hook Fly Shop (Shop Associate)
-    <br>
-    -Engaged with a wide range of customers from regular patrons,
-    to cross country vacationers and assisted customers on a personal 
-    basis, equipping them with specific gear for their upcoming angling
-    adventure.  
-    </p>
-</div>
 
-<div>
-    <h2>Skills</h2>
-    <p>
-        Solidworks CAD
-        <br>
-        -Proficiency with Solidworks computer-aided design software obtained from the Oregon State engineering program (2022). Was assigned projects that  required specific parameters in order to learn the software. This skill was practiced on personal time as well. (Check personal projects for relevant examples).
-        </p>
-        Microsoft Excel
-        <br>
-        -Proficiency with Microsoft Excel developed through the Oregon State business admin program (2021).
-        <p>
-        Python (In progress)
-        <br>
-        -Oregon State Computer Science Program (2023).
-    </p>
-</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-<div>
-    <h2>Personal Projects</h2>
-    <p>
-    The Drift Box Pitch Presentation:
-    <a href="https://docs.google.com/presentation/d/1JxQtNkB1vQdJIfPn_Y5N9vXk-zOpaeWRe9pfco7aykQ/edit#slide=id.p" target="_blank">The Drift Box Presentation</a>
-    </p>
-    <p>
-    CAD Fly Fishing Reel: 
-    <a href="https://docs.google.com/presentation/d/1zTkr29t988COasqgo7C1jrxVLuZrsizLVZuXdiKTtVg/edit#slide=id.p" target="_blank">Solidworks Fly Reel Design Review</a>
-    </p>
-</div>
 
-<div>
-    <h2>My Repositories</h2>
-    <p>
-        Github Repository: <a href="DominicLamey.github.io" target="_blank"> DominicLamey.github.io </a> 
-    </p>
-</div>
-
-<div>
-    <h2>Education</h2>
-    <p>
-    Junior at Oregon State University Cascades
-    <br>
-    Major in Outdoor Products, Bachelor of Science
-    </p>
-</div>
-
-<div>
-    <h2>Special Recognition</h2>
-    <p>
-        Clackamas High School:
-    </p>
-    <p>
-        Honor Roll Graduate
-        <br>
-        Honors Diploma
-        <br>
-        National Honors Society
-        <br>
-        Oregon State Seal of Biliteracy 
-    </p>
-</div>
-
-<div>
-    <h2>Social Media</h2>
-    <p>
-        Linkedin: <a href= "https://www.linkedin.com/in/dominic-lamey-baab85271/" target="_blank"> Dominic Lamey </a> 
-        <br>
-        Github: <a href= "https://github.com/DominicLamey" targeet="_blank" target="_blank"> DominicLamey </a>
-        <br>
-        Handshake: <a href= "https://oregonstate.joinhandshake.com/stu/users/30484596" target="_blank"> Dominic Lamey </a>    
-    </p>
-</div>
-
-<div>
-    <br>
-    Favicon Attribution: <a target="_blank" href="https://icons8.com/icon/65468/salmon">Salmon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-</div>
-</body>
+  </body>
 </html>
 
+
+
+<!-- <svg class = "bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg> -->
